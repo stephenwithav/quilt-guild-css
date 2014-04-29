@@ -1,0 +1,38 @@
+* { margin: 0; }
+
+body {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    height: 3cm;
+    clear: both;
+}
+
+.member {
+    page-break-after: always;
+    width: 900px;
+}
+
+.member ul li {
+    float: left;
+    padding-right: 5px;
+    top: 0px;
+    font: bold 16px serif;
+    white-space: nowrap;
+}
+
+.minfo {
+    padding-right: 20px;
+    width: 7cm;
+}
+
+.avatar {
+    width: 2.61938cm;
+    height: 2.61938cm;
+}
+
+@media print {
+    font-weight: bold;
+}
